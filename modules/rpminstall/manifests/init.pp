@@ -1,5 +1,5 @@
-class package {
-	file { "cheese":
-		ensure => 'installed'
+class rpminstall {
+	package { "cheese":
+		ensure => 'latest'
 	}
 }
